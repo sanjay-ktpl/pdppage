@@ -1,0 +1,31 @@
+.container {max-width: 1440px; margin: 0px auto;}
+.header-content.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.logo img {
+    max-width: 200px;
+    min-width: 200px;
+}
+.srach-box input {
+    min-width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+.wishlist:before {
+    content: "";
+    background: url(../Header/myaccount.svg);
+    width: 34px;
+    background-size: 26px;
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
